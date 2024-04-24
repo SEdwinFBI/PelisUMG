@@ -1,0 +1,19 @@
+.aux{
+
+    
+}
+.descrip{
+
+    position: absolute;
+    display: none;
+    transform: translate(50%, 10%);
+    color: #000000;
+    width: 10rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.aux:hover .descrip{
+    background: #000000;
+    display: flex;
+}

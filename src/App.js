@@ -1,13 +1,13 @@
 import Listado from "./components/Listado";
+import NavBar from "./components/NavBar";
 
 
 function App() {
   return (
-    <div className="container">
-       <h1>Sistema demo</h1>
-       <Listado/>
-       
-    </div>
+   <section>
+    <NavBar/>
+         <Listado  />
+   </section>
   );
 }
 
