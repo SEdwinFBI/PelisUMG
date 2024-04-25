@@ -55,6 +55,7 @@ const Listado = () => {
 
                                 <div class="card-body">
                                     <h5 class="card-title" style={{ color: "white" }}>{peli.titulo}</h5>
+                                    <a href="#" className="btn btn-primary botton">Ver</a>
 
 
                                    

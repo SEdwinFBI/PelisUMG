@@ -15,12 +15,26 @@ span{
 
 
 }
-.aux:hover .descrip{
-    background: #000000d3;
-    display:block;
-    z-index: 1;
-   
+.botton{
+    display: flex;
 }
-.aux:hover{
-    
+
+
+
+@media (min-width: 500px ) {
+    .aux:hover .descrip{
+        background: #000000d3;
+        display:block;
+        z-index: 1;
+       
+    }
+    img:hover{
+         filter: brightness(0.5);
+    }
+    .descrip:hover img{
+        filter: brightness(0.5);
+    }
+    .botton{
+        display: none;
+    }
 }
