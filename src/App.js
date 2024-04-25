@@ -6,7 +6,7 @@ function App() {
   return (
    <section>
     <NavBar/>
-         <Listado  />
+    <Listado/>
    </section>
   );
 }

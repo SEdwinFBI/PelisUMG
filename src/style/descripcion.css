@@ -1,19 +1,26 @@
-.aux{
-
-    
+span{
+    color: rgba(255, 255, 255, 0.562);
 }
 .descrip{
 
-    position: absolute;
+    position:absolute;
     display: none;
     transform: translate(50%, 10%);
     color: #000000;
-    width: 10rem;
+    width: 15rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 5%;
+    fill-opacity: 10%;
+
 
 }
 .aux:hover .descrip{
-    background: #000000;
-    display: flex;
+    background: #000000d3;
+    display:block;
+    z-index: 1;
+   
+}
+.aux:hover{
+    
 }

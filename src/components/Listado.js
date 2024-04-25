@@ -46,9 +46,9 @@ const Listado = () => {
                                 </div>
                                 <div className='container descrip' >
                                         <div className="lh-1" style={{ fontSize: "12px", color: "white" }}>
-                                            <p class="card-text text-break" >{peli.descripcion}</p>
-                                            <p class="card-text">duracion: {peli.duracion}</p>
-                                            <p class="card-text">Genero: {peli.genero}</p>
+                                            <p class="card-text text-break" >descripcion: <span  >{peli.descripcion}</span></p>
+                                            <p class="card-text">duracion: <span>{peli.duracion} </span>horas</p>
+                                            <p class="card-text">Genero: <span>{peli.genero}</span></p>
                                             <a href="#" className="btn btn-primary">Ver</a>
                                         </div>
                                     </div>
